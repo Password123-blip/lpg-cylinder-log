@@ -1,0 +1,69 @@
+{
+  "slug": "lpg-cylinder-log",
+  "title": "LPG Cylinder Log",
+  "tagline": "When did the cylinder actually arrive",
+  "description": "When did the cylinder actually arrive.",
+  "category": "Home",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "refills",
+    "singular": "refill",
+    "plural": "refills",
+    "fields": [
+      {
+        "name": "connection_id",
+        "label": "Connection / consumer no.",
+        "type": "text",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "booked_on",
+        "label": "Booked on",
+        "type": "date",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "delivered_on",
+        "label": "Delivered on",
+        "type": "date",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "price",
+        "label": "Price (₹)",
+        "type": "number",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "notes",
+        "label": "Notes",
+        "type": "text",
+        "required": true,
+        "placeholder": ""
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "🛢️",
+      "title": "Booking to delivery gap",
+      "body": "See the real waiting time, not the promised one."
+    },
+    {
+      "icon": "💸",
+      "title": "Price history",
+      "body": "Subsidy and price changes over the year."
+    },
+    {
+      "icon": "📞",
+      "title": "Connection reference",
+      "body": "Consumer number kept with each entry."
+    }
+  ],
+  "seed": []
+}
